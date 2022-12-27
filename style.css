@@ -1,0 +1,77 @@
+main{
+    background-color: black;
+    height: 900px;
+    /* ширина */
+    width: 900px;
+    margin: auto;
+    position: relative;
+}
+.data{
+    
+    border-color: black;
+    position: absolute;
+    top: 500px;
+    right: 190px;
+    color: rgb(233, 0, 0);
+}
+.christmas{
+    
+    border-color: #fff;
+    
+    position: absolute;
+    top: 570px;
+    right: 190px;
+    color: #fff;
+}
+.ded-moros{
+    position: absolute;
+    top: 350px;
+    right: 600px;
+}
+.girland{
+    position: absolute;
+    top: 0px;
+    right: 444px;
+}
+.girland2{
+    position: absolute;
+    top: 0;
+    right: 200px;
+}
+.tree-back{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.tree-coner{
+    position: absolute;
+    top: 0;
+    right: 200px;
+}
+.tree-snow{
+    position: absolute;
+    top: 650px;
+    right: 0;
+}
+.tree1{
+    position: absolute;
+    top: 250px;
+    right: 600px;
+}
+h1 {
+   
+    animation-duration: 5s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+        margin-left: 32%;
+        width: 198%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
